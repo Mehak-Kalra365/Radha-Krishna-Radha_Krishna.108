@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | My YouTube Channel</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f8fc;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #0066cc; /* Deep Blue */
+            color: white;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffd700; /* Golden Yellow */
+            text-decoration: none;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            padding-left: 0;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        nav ul li a.active {
+            color: #ffd700;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to bottom, #0066cc, #4b9fd6); /* Blue gradient */
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            text-decoration: none;
+            background-color: #ffd700;
+            color: #0066cc;
+            padding: 12px 30px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #4b9fd6;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        /* Latest Videos Section */
+        .latest-videos {
+            background-color: #f0f5fa;
+            padding: 60px 20px;
+        }
+
+        .latest-videos h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: #0066cc;
+            margin-bottom: 40px;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .video-grid iframe {
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #4b9fd6;
+        }
+
+        .video-grid iframe:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        footer {
+            background-color: #0066cc; /* Dark blue footer */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            
+            width: 100%;
+            bottom: 0;
+        }
+	footer a {
+            color: #ffd700;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="container">
+                <a href="index.html" class="logo">My Channel</a>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to My Channel!</h1>
+            <p>Discover engaging devotional Radha Krishna, Mahadev ji, Hanuman ji, videos, status, and insights. Stay tuned for exciting content!</p>
+            <a href="https://youtube.com/@radha_krishna.108?feature=shared" class="cta-button" target="_blank">Visit My YouTube Channel</a>
+        </div>
+    </section>
+
+    <!-- Latest Videos Section -->
+    <section class="latest-videos">
+        <div class="container">
+            <h2>Latest Videos</h2>
+            <div class="video-grid">
+                <!-- Embed YouTube Videos -->
+                <iframe src="https://www.youtube.com/embed/ueZzgDcFXb0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bNaSdtZoitM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/QssyXZk_p18" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 @Radha_Krishna.108 | All Rights Reserved</p>
+            <p>Connect with me on 
+                <a href="https://www.instagram.com/radha_krishna.108_/profilecard/?igsh=aG9tandwZGhnMmh5" target="_blank">Instagram</a>, and 
+                <a href="https://youtube.com/@radha_krishna.108?feature=shared" target="_blank">YouTube</a>.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

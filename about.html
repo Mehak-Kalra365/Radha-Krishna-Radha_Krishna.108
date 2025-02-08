@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | My YouTube Channel</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f8fc;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        	header {
+            background-color: #0066cc; /* Deep Blue */
+            color: white;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffffff; 
+            text-decoration: none;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            padding-left: 0;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        nav ul li a.active {
+            color: #ffd700;
+        }
+	header h1 {
+            font-size: 36px;
+            letter-spacing: 2px;
+	    align: center;
+        }
+	
+
+        /* About Section */
+        .about {
+            padding: 60px 20px;
+            background-color: #f0f5fa;
+        }
+
+        .about h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #0066cc;
+            margin-bottom: 40px;
+        }
+
+        .about-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .about-text {
+            flex: 1;
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .about-text p {
+            margin-bottom: 20px;
+        }
+
+        .about-image img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #4b9fd6;
+        }
+
+        /* Mission Section */
+        .mission {
+            background-color: #0066cc;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        .mission h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .mission p {
+            text-align: center;
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Highlights Section */
+        .highlights {
+            padding: 60px 20px;
+            background-color: #f5f8fc;
+        }
+
+        .highlights h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: #0066cc;
+            margin-bottom: 40px;
+        }
+
+        .highlight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .highlight-card {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .highlight-card h3 {
+            font-size: 1.8rem;
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+
+        .highlight-card p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        footer a {
+            color: #0066cc;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+	footer a.active {
+            color: #ffd700;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="container">
+                <a href="index.html" class="logo">My Channel</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h1>About Me</h1>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hi! I'm Mehak, the creator of this YouTube channel. My mission is to Welcome you all to a journey of faith, devotion, and divine stories. engaging videos of Radha, Krishna, Shiv ji, Hanuman ji. Whether you're here to learn, get peace, or explore something new, you're in the right place!</p>
+                    <p>With a passion for Video editing , I aim to deliver high-quality content that makes a positive impact on my viewers. Thank you for being part of this amazing journey!</p>
+                </div>
+                <div class="about-image">
+                    <img src="C:\Users\DELL\Documents\about me .jpge.webp" alt="Radha Krihna Sakhi">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>At Radha Krishna (@radha_krishna.108), I believe in creating a community where everyone can get peace, grow, and share their stories. Our goal is to spread love, devotion, and positivity by bringing you closer to the divine</p>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="highlights">
+        <div class="container">
+            <h2>Channel Highlights</h2>
+            <div class="highlight-grid">
+                <div class="highlight-card">
+                    <h3>250+ short Videos</h3>
+                    <p>A diverse collection of videos tailored to your interests.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>1.6K+ Subscribers</h3>
+                    <p>Join a growing community of passionate viewers.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Global Audience</h3>
+                    <p>Viewers from over 2 - 3 countries around the world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 @Radha_Krishna.108 | All Rights Reserved</p>
+            <p>Connect with me on 
+                <a href="https://www.instagram.com/radha_krishna.108_/profilecard/?igsh=aG9tandwZGhnMmh5" class="active" target="_blank">Instagram</a>, and 
+                <a href="https://youtube.com/@radha_krishna.108?feature=shared" class="active">YouTube</a>.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | My YouTube Channel</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- For Icons -->
+    <style>
+       /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f8fc;
+            color: #333;
+            line-height: 1.6;
+		overflow: auto;
+        }
+
+        /* Header */
+        header {
+            background-color: #0066cc; /* Deep Blue */
+            color: white;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+		
+
+        }
+        h1 {
+            font-size: 40px;
+            letter-spacing: 1px;
+	    align: center;
+		 padding: 50px 20px 20px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0px 20px;
+	    color: #0066cc;
+	
+        }
+
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffffff; /* Golden Yellow */
+            text-decoration: none;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            padding-left: 0;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        nav ul li a.active {
+            color: #ffd700;
+        }
+	header h1 {
+            font-size: 36px;
+            letter-spacing: 2px;
+	    align: center;
+        }
+	
+        /* Contact Section */
+        .contact-section {
+            text-align: center;
+            padding: 40px;
+            background-color: white;
+            margin: 40px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-section h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .contact-section p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+/*
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-icons a {
+            font-size: 30px;
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #0066cc; /* Blue color on hover */
+        }
+*/
+
+/* Default styling for all social icons */
+.social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+.social-icons a {
+    padding: 10px;
+    color: #333;
+    font-size: 30px;/* Adjust size as needed */
+    
+    text-decoration: none;
+}
+
+/* WhatsApp hover effect */
+.social-icons a.whatsapp:hover {
+    color: #25D366; /* WhatsApp Green */
+}
+
+/* Facebook hover effect */
+.social-icons a.facebook:hover {
+    color: #1877F2; /* Facebook Blue */
+}
+
+/* Instagram hover effect */
+.social-icons a.instagram:hover {
+     color: #E4405F; 
+    transition: all 0.3s ease;
+
+}
+.social-icons a.instagram:hover {
+    background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* YouTube hover effect */
+.social-icons a.youtube:hover {
+    color: #FF0000; /* YouTube Red */
+}
+
+        footer {
+            background-color: #0066cc; /* Dark blue footer */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            
+            width: 100%;
+            bottom: 0;
+        }
+	footer a {
+            color: #ffd700;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        footer p {
+color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="container">
+                <a href="index.html" class="logo">My Channel</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+<section class="contact">
+
+<div class="container">
+     <h1><center>Contact Details</center></h1>
+</div>       
+    <div class="contact-section">
+
+        <h2>Get in Touch</h2>
+        <p>If you have any questions, collaboration requests, or just want to connect, feel free to reach out to me. You can contact me via social media, or send a message directly via WhatsApp (no. 7206452411). I'll be happy to hear from you!</p>
+
+        <!-- Social Media Icons 
+        <div class="social-icons">
+            <a href="https://www.instagram.com/radha_krishna.108_?igsh=cWlrejI5cncxOGt4" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/@radha_krishna.108?feature=shared" target="_blank" title="YouTube">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61569089467383&mibextid=ZbWKwL" target="_blank" title="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaGlH949xVJmbctPCa20" target="_blank" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>-->
+<div class="social-icons">
+    <a href="https://www.instagram.com/radha_krishna.108_?igsh=cWlrejI5cncxOGt4" target="_blank" title="Instagram" class="instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.youtube.com/@radha_krishna.108?feature=shared" target="_blank" title="YouTube" class="youtube">
+        <i class="fab fa-youtube"></i>
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=61569089467383&mibextid=ZbWKwL" target="_blank" title="Facebook" class="facebook">
+        <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://whatsapp.com/channel/0029VaGlH949xVJmbctPCa20" target="_blank" title="WhatsApp" class="whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+</div>
+
+    <!-- Footer Section -->
+    <footer>
+<div class="container">
+        <p>&copy; 2024 @Radha_Krishna.108 | All Rights Reserved.</p>
+	<p>Connect with me on 
+                <a href="https://www.instagram.com/radha_krishna.108_/profilecard/?igsh=aG9tandwZGhnMmh5" target="_blank">Instagram</a>, and 
+                <a href="https://youtube.com/@radha_krishna.108?feature=shared" target="_blank">YouTube</a>.
+            </p>
+ </div>
+    </footer>
+
+</body>
+</html>

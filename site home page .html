@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Devotional Channel</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Georgia', serif;
+        }
+
+        body {
+            background-color: #f4f9ff; /* Light blue background */
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #005b96; /* Deep blue */
+            color: white;
+            padding: 15px 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: #ffffff; /* Golden yellow */
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to bottom, #005b96, #3b8ed0);
+            text-align: center;
+            color: white;
+            padding: 60px 20px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+        }
+
+        .hero a {
+            text-decoration: none;
+            display: inline-block;
+            background-color: #ffd700;
+            color: #005b96;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .hero a:hover {
+            background-color: #3b8ed0;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        /* Video Section */
+        .video-section {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #f4f9ff;
+        }
+
+        .video-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #005b96;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .video-grid iframe {
+            width: 100%;
+            height: 200px;
+            border: 2px solid #3b8ed0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-grid iframe:hover {
+            transform: scale(1.03);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+            margin: 0 5px;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        /* Fade-in Animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">My Channel</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>RADHE RADHE <br>Welcome to My Channel!</h1>
+        <p>Experience Radha Krishna’s Love, Shiv Ji’s Power, and Gurudwara’s Peace</p>
+        <a href="https://youtube.com/@radha_krishna.108?feature=shared" target="_blank">Visit My Channel</a>
+    </section>
+
+    <!-- Videos Section -->
+    <section class="video-section">
+        <h2>Popular Videos</h2>
+        <div class="video-grid">
+            <iframe src="https://www.youtube.com/embed/m4q8bNm27H0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/gzWOHt6nffA" allowfullscreen></iframe>
+        </div>
+
+        <!-- Added "Popular Shorts" Section Here -->
+        <h2>Popular Shorts</h2>
+        <div class="video-grid">
+            <iframe src="https://www.youtube.com/embed/weBV75k-h8s" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/tNS6URq8P3o" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/JThbcbOaU7g" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/UO5O2vdVzVI" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/Btct2BhpY-Q" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/TIJU49o&DXw" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My Channel | All Rights Reserved</p>
+        <p>Follow me on 
+            <a href="https://www.instagram.com/radha_krishna.108_" target="_blank">Instagram</a> and 
+            <a href="https://youtube.com/@radha_krishna.108?feature=shared" target="_blank">YouTube</a>.
+        </p>
+    </footer>
+</body>
+</html>
